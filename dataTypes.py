@@ -26,3 +26,24 @@ l=[10,'ab',5.5]
 print(l,type(l))
 l[2]=20
 print(l)
+
+# tuple
+
+t=(5,"biswas",5.5)
+# t[1]=10   hum nhi kr skte error
+
+print(t)
+
+# dictionary
+
+d={
+    'name':'abhishek',
+    'age': 24
+}
+print(d)
+print(d['name'])
+
+# set
+
+set={10,20,30,40,10}
+print(set)
