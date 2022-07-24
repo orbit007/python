@@ -43,3 +43,14 @@ print(a)
 
 y=chr(65)
 print(y)
+
+
+#  python string formate() method
+
+
+k="abhishek {} biswas {}".format("kumar",20)
+print(k)
+
+c="abhishek {0} biswas {1}".format("kumar",20)
+print(c)
+
