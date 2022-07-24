@@ -34,3 +34,12 @@ print(w.isdigit())
 
 print(w.isalnum())
 
+
+
+# python chr() and ord()
+
+a=ord("A")
+print(a)
+
+y=chr(65)
+print(y)
