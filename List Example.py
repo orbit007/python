@@ -18,3 +18,19 @@ a=[1,2,3,4,5]
 print(a[0::2])
 print(a[0:])
 print(a[-1::-1])
+
+# list iteration
+
+t=len(l)
+print(t)
+
+for n in range(t):
+    print(l[n])
+print()
+
+for i in l:
+    print(i)
+print()
+
+for n in range(t-1,-1,-1):
+    print(l[n])
