@@ -123,3 +123,47 @@ m.append(1000)
 print(m)
 
 
+
+#list function class 2 -------------------------------------------------------------------------------
+#count() ----- koi element kitni bar list me hai wo pata krne ke liye
+#max()  -------list me max elelment nikalne ke liye
+#min()  -------list me min element nikalne ke liye
+#sort() --------list ko sort krne ke liye
+#reverse()------list ko reverse krne ke liye
+#index()--------list me element ka index number nikalne ke liye
+
+
+#count function
+l=[10,20,30,40,10,40,10,60,100,10,60]
+a=l.count(10)
+print(a)
+
+#max function
+
+z=max(l)
+print(z)
+
+#min function
+
+x=min(l)
+print(x)
+
+#sort function
+
+l.sort()
+print(l)
+
+#reverse function
+
+l.reverse()
+print(l)
+
+#index function
+
+e=l.index(40)
+print(e)
+
+
+
+
+
